@@ -16,11 +16,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <script
-        defer
-        src="https://umami.parisdeploy.space/script.js"
-        data-website-id="4d30c252-9a4e-4bc1-864b-520c2c235ea7"
-      ></script>
+      <head>
+        <script
+          defer
+          src="https://umami.parisdeploy.space/script.js"
+          data-website-id="4d30c252-9a4e-4bc1-864b-520c2c235ea7"
+        ></script>
+      </head>
       <body className={`${GeistSans.variable} ${GeistMono.variable}`}>
         <div className="w-full flex justify-center p-2 sm:p-0 bg-gray-100">
           {children}
