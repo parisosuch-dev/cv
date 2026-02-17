@@ -12,19 +12,11 @@ let projects = [
     tags: ["Python", "Numpy", "Quantum Computing", "OSS", "Research"],
   },
   {
-    name: "CV",
+    name: "Beaver",
     description:
-      "Quick and clean CV website. What you are currently looking at right now.",
-    url: "https://parisosuch.com",
-    github: "https://github.com/parisosuch/cv",
-    tags: ["NextJS", "Tailwind", "Vercel", "Shadcn"],
-  },
-  {
-    name: "Roseville Open Budget",
-    description: "Dashboard that displays Roseville, CA expenses and revenues.",
-    url: "https://rosevilleopenbudget.org",
-    github: "https://github.com/parisosuch/roseville-open-budget",
-    tags: ["NextJS", "Tailwind", "Vercel", "Supabase", "Postgres"],
+      "Open source event logger with SSE streams for 'real-time' monitoring.",
+    github: "https://github.com/parisosuch/beaver",
+    tags: ["Astro", "Sqlite3", "Bun"],
   },
 ];
 
@@ -39,12 +31,7 @@ export default function Projects() {
             className="space-y-2 border-2 border-gray-200 shadow-sm rounded-md p-2"
           >
             <div className="flex flex-row items-center justify-between w-full">
-              <a
-                className="font-semibold text-sm sm:text-lg hover:underline"
-                href={project.url ? project.url : "#"}
-              >
-                {project.name}
-              </a>
+              {project.name}
               <a href={project.github} target="_blank">
                 <Github size={18} />
               </a>

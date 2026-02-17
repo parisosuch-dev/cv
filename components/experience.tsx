@@ -1,21 +1,32 @@
 let experience = [
   {
+    name: "4insite - Santa Rosa, CA",
+    position: "Software Engineer II",
+    start: "2026",
+    end: "Current",
+  },
+  {
     name: "Jackson Family Wines - Santa Rosa, CA",
     position: "Software Developer II",
+    summary:
+      "Worked on an internal business application for vineyard ops. Worked along side business analyst to improve UX. Backend was a IBM AS/400 using RPG for procedures, where I migrated RPG to DB2 SQL to reduce technical debt. Frontend was a legacy Sencha JS application.",
     start: "2024",
-    end: "Current",
+    end: "2026",
   },
   {
     name: "Nelson & Kennard - Sacramento, CA",
     position: "Junior Software Engineer",
-    summary: "Automated business processes using Python and T-SQL. Managed a legacy automation engine built in Flask. Led and coordinated a project to migrate the legacy automation engine to a Django RESTful API. This project included a front-end application built in NextJS 13, Typescript, and Tailwindcss.",
+    summary:
+      "Automated business processes using Python and T-SQL. Managed a legacy automation engine built in Flask. Led and coordinated a project to migrate the legacy automation engine to a Django RESTful API. This project included a front-end application built in NextJS 13, Typescript, and Tailwindcss.",
     start: "2023",
     end: "2024",
   },
   {
     name: "Sonoma State University - Rohnert Park, CA",
     position: "Undergraduate Researcher",
-    summary: "Recipient of the Koret Scholarship to develop an open-source Python library to simulate quantum computation, called QCpy. This research was part of an undergraduate team uniquely invited to SIGCSE 2023, a renowned international conference for computer science education. Research included the coauthoring of a peer-reviewed abstract published in the ACM Digital Library of research papers.  ", start: "2021",
+    summary:
+      "Recipient of the Koret Scholarship to develop an open-source Python library to simulate quantum computation, called QCpy. This research was part of an undergraduate team uniquely invited to SIGCSE 2023, a renowned international conference for computer science education. Research included the coauthoring of a peer-reviewed abstract published in the ACM Digital Library of research papers.  ",
+    start: "2021",
     end: "2023",
   },
   {

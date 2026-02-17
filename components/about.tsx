@@ -1,6 +1,6 @@
 let data = {
   about:
-    "Eccentric full stack software engineer with over 6 years of professional experience. Paris is keen on creating a seemless user experience and often explores new technology stacks to implement into his workflow.",
+    "I am a full stack software engineer. Raised on the central coast of CA and now residing in Sacramento, CA. I enjoy working on various tech stacks, mostly in the web development realm.",
 };
 
 export default function About() {

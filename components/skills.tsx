@@ -25,7 +25,8 @@ let skills = [
   "T-SQL",
   "DB2 SQL",
   "RESTful APIs",
-  "Workflow Automation"
+  "Workflow Automation",
+  "AstroJS",
 ];
 
 export default function Skills() {
