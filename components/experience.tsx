@@ -1,6 +1,6 @@
 let experience = [
   {
-    name: "4insite - Santa Rosa, CA",
+    name: "4insite - Sacramento, CA",
     position: "Software Engineer II",
     start: "2026",
     end: "Current",
